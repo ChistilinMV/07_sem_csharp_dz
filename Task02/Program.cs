@@ -8,8 +8,8 @@ int num01 = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите число B: ");
 int num02 = Convert.ToInt32(Console.ReadLine());
 if (num01 > num02) {
-    Console.Write($"max={num01} min={num02}");
+    Console.WriteLine($"max={num01} min={num02}");
 } 
 else {
-    Console.Write($"max={num02} min={num01}");
+    Console.WriteLine($"max={num02} min={num01}");
 }
