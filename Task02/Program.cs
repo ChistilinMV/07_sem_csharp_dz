@@ -10,6 +10,9 @@ int num02 = Convert.ToInt32(Console.ReadLine());
 if (num01 > num02) {
     Console.WriteLine($"max={num01} min={num02}");
 } 
-else {
+else if (num02 > num01) {
     Console.WriteLine($"max={num02} min={num01}");
+}
+else {
+    Console.WriteLine($"Числа равны ;)");
 }
