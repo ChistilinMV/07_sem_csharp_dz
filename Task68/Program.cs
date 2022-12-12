@@ -24,5 +24,5 @@ Console.Write("Введите число M: ");
 int m = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите число N: ");
 int n = Convert.ToInt32(Console.ReadLine());
-if (m >= 0 & n > 0) Console.WriteLine($"Функция Аккермана для M={m}, N={n} = {Ack(m, n)}");
+if (m >= 0 & n >= 0) Console.WriteLine($"Функция Аккермана для M={m}, N={n} = {Ack(m, n)}");
 else Console.WriteLine($"Числа должны быть неотрицателные");
